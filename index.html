@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brakni Store | أسعار تحت الكرلاج</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      direction: rtl;
+    }
+    header {
+      background-color: #0a0a23;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #fdd835;
+    }
+    nav {
+      background-color: #1a1a40;
+      display: flex;
+      justify-content: space-around;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Brakni+Store') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #1a1a40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brakni Store</h1>
+    <p>أسعار تحت الكرلاج</p>
+  </header>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="cart.html">السلة</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
+  <div class="hero">مرحبا بكم في Brakni Store</div>
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200?text=تيشيرت+رجالي" alt="تيشيرت رجالي">
+      <h3>تيشيرت رجالي</h3>
+      <p>2500 دج</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200?text=ساعة+ذكية" alt="ساعة ذكية">
+      <h3>ساعة ذكية</h3>
+      <p>7200 دج</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200?text=حقيبة+يد" alt="حقيبة يد">
+      <h3>حقيبة يد</h3>
+      <p>3900 دج</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200?text=ملابس+أطفال" alt="ملابس أطفال">
+      <h3>طقم أطفال</h3>
+      <p>2800 دج</p>
+    </div>
+  </section>
+  <footer>&copy; 2025 Brakni Store - جميع الحقوق محفوظة</footer>
+</body>
+</html>
